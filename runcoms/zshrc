@@ -11,3 +11,16 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+#export KEYTIMEOUT=50
+
+# Color (needed for tmux)
+export TERM=screen-256color-bce
+
+# added by Anaconda 2.2.0 installer
+export PATH="/home/john/anaconda3/bin:$PATH"
+
+bindkey -v
+bindkey -M viins 'jj' vi-cmd-mode
+bindkey '^R' history-incremental-search-backward
+
