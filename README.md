@@ -1,9 +1,5 @@
-Prezto — Instantly Awesome Zsh
+jstac's fork of Prezto 
 ==============================
-
-Prezto is the configuration framework for [Zsh][1]; it enriches the command line
-interface environment with sane defaults, aliases, functions, auto completion,
-and prompt themes.
 
 Installation
 ------------
@@ -17,7 +13,7 @@ version is 4.3.17.
 
   2. Clone the repository:
 
-        git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+        git clone --recursive https://github.com/jstac/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
   3. Create a new Zsh configuration by copying the Zsh configuration files
      provided:
